@@ -1,4 +1,4 @@
-import prime_test as pt
+import 4k_1_prime_test as pt
 
 def test_sum_squares(x):
     #print(f'{x}:')
