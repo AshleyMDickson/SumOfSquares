@@ -1,8 +1,10 @@
+a = int(input("Enter a number of prime testing: "))
+
 def prime_test_func(x):
     
     factors = []
     
-    for i in range(2, int(x/2)):
+    for i in range(2, int(x**(1/2))):
         
         if x%i == 0:
             
@@ -11,6 +13,8 @@ def prime_test_func(x):
     y = len(factors)
     
     if y==0:
-        print("x is prime")
+        print(f'{x} is prime.')
     else:
-        print("nope")
+        print(f'{x} is composite.')
+
+prime_test_func(a)
