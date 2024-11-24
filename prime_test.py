@@ -1,4 +1,4 @@
-a = int(input("Enter a number of prime testing: "))
+#a = int(input("Enter a number of prime testing: "))
 
 def prime_test_func(x):
     
@@ -19,4 +19,4 @@ def prime_test_func(x):
         return 0;
         #print(f'{x} is composite.')
 
-prime_test_func(a)
+#prime_test_func(a)
