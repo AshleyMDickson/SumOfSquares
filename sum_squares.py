@@ -1,13 +1,14 @@
-a = input("Please enter your starting number: ")
-b = input("Now enter your ending number: ")
+import prime_test as pt
 
 def test_sum_squares(x):
 
-    print(f'{x}:')
+    # print(f'{x}:')
     square_numbers = []
 
     for i in range(1, int(x**(1/2))+1):
         square_numbers.append(i**2)
+
+    if
     
     for sq in square_numbers:
         y = x - sq
@@ -18,6 +19,3 @@ def test_sum_squares(x):
 
         else:
             pass
-
-for _ in range(int(a), int(b)):
-    test_sum_squares(int(_))

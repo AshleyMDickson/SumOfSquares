@@ -13,8 +13,10 @@ def prime_test_func(x):
     y = len(factors)
     
     if y==0:
-        print(f'{x} is prime.')
+        return 1;
+        #print(f'{x} is prime.')
     else:
-        print(f'{x} is composite.')
+        return 0;
+        #print(f'{x} is composite.')
 
 prime_test_func(a)
