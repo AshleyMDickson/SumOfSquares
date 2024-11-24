@@ -1,4 +1,4 @@
-#a = int(input("Enter a number of prime testing: "))
+#a = int(input("Enter a number for prime testing: "))
 
 def prime_test_func(x):
     
