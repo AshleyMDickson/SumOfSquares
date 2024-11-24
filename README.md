@@ -1,6 +1,6 @@
 # A fun project
 
-## Sums of squares and Primes 
+## Prime Numbers as Sums of squares 
 
 This is hopefully going to be a little programme that tests whether a number can be expressed as a sum of squares.
 
