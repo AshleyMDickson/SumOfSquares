@@ -10,3 +10,9 @@ We might also need to create a prime tester to roll in because we're only intere
 
 Prime number tester done, and restricted to primes of form 4k+1.
 Next need, to implement some logic to test the summation.
+
+I think that's done. 
+
+Next, restrict primes to odd primes only, per Fermat's theorem on Sums of Two Squares.
+
+
