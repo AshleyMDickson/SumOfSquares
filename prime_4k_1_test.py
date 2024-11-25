@@ -5,7 +5,7 @@ def prime_test_func(x):
     factors = []
     
     for i in range(2, int(x**(1/2))+1):
-        if x%i == 0 & (x-1)%4 == 0:
+        if x%i == 0 & (x-1)%4 == 0 & x>2:
             factors.append(i)
             
     y = len(factors)
