@@ -1,6 +1,6 @@
-# A fun project
+# Fermat's Theorem on Primes as Sums of Squares
 
-## Prime Numbers as Sums of squares 
+## Prime Numbers of form 4k+1 can be expressed as a sum of two squares
 
 This is hopefully going to be a little programme that tests whether a number can be expressed as a sum of squares.
 
